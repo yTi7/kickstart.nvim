@@ -679,10 +679,11 @@ require('lazy').setup {
       },
       indent = { enable = true, disable = { 'ruby' } },
     },
-  require 'kickstart.plugins.indent_line',
-  require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
-  { import = 'custom.plugins' },
+    require 'kickstart.plugins.indent_line',
+    require 'kickstart.plugins.lint',
+    require 'kickstart.plugins.autopairs',
+    { import = 'custom.plugins' },
+  },
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
